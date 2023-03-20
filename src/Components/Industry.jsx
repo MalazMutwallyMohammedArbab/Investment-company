@@ -9,6 +9,7 @@ export default function Industry() {
       <div className='text-xl mb-2 font-medium'>قطاع الصناعة</div>
       <div className='text-lg mb-3'>من خلال توظيف رأس مالنا في صميم رؤية المملكة الاقتصادية 2030، نساعد في قيادة الطريق لاقتصاد وطني متنوع ومستدام</div>
       <div className='text-xl mb-2 font-medium'>الأعمال</div>
+      <Image className='w-28 m-auto' src='images/maqayeesD.jpg' alt='' />
       <NavLink to='/maqayees'>
         <div className='text-lg'>شركة مصنع مقاييس الدقة للمعدات</div>
       </NavLink>

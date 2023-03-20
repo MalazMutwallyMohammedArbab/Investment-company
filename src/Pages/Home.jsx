@@ -8,7 +8,7 @@ import Contact from './Contact';
 
 function Home() {
   return (
-    <div>
+    <div className='bg-[#444] pt-12'>
       <About />
       <WhatWeDo />
       <Vision />

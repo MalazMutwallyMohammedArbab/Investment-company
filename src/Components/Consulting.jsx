@@ -3,13 +3,17 @@ import React from 'react'
 export default function Consulting() {
   return (
     <div dir='rtl' className='container mb-12 block m-auto'>
-      <div className='mt-16 text-white bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-[20px] py-3 px-5 w-[30%] m-auto text-center'>الاستشارات</div>
-      <div className='px-7 lg:px-14 text-center text-lg lg:text-xl mt-5'>تقدم الشركة خدمات الاستشارات الإدارية والتطوير وخدمات الامتياز التجاري لكافة العلامات التجارية بشكل مستمر</div>
-      <div className='mt-12 text-white bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-[20px] py-3 px-5 w-[30%] m-auto text-center'>التدريب</div>
-      <div className='text-start text-lg lg:text-xl pr-12 mt-5'>إعداد الحقائب التدريبية</div>
-      <div className='text-start text-lg lg:text-xl pr-12 mt-5'>تصميم البرامج التدريبية</div>
+      <div className='border border-sky-500 w-[80%] md:w-[50%] m-auto rounded-[40px] mt-16 py-4'>
+        <div className='text-white bg-sky-500 font-medium rounded-lg text-[20px] py-3 px-5 w-fit m-auto text-center'>الاستشارات</div>
+        <div className='px-7 lg:px-14 text-center text-lg lg:text-xl mt-5'>تقدم الشركة خدمات الاستشارات الإدارية والتطوير وخدمات الامتياز التجاري لكافة العلامات التجارية بشكل مستمر</div>
+      </div>
+      <div className='border border-sky-500 w-[80%] md:w-[50%] m-auto rounded-[40px] mt-16 py-4'>
+      <div className='text-white bg-sky-500 font-medium rounded-lg text-[20px] py-3 px-5 w-fit m-auto text-center'>التدريب</div>
+      <div className='text-center text-lg lg:text-xl mt-5'>إعداد الحقائب التدريبية</div>
+      <div className='text-center text-lg lg:text-xl mt-5'>تصميم البرامج التدريبية</div>
+      </div>
 
-      <div className='mt-12 text-white bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-[20px] py-3 px-5 w-[50%] m-auto text-center'>الاستشارات الإدارية</div>
+      <div className='mt-12 text-white bg-sky-500 font-medium rounded-lg text-[20px] py-3 px-5 w-fit m-auto text-center'>الاستشارات الإدارية</div>
       <div className='grid grid-cols-1 md:grid-cols-2 gap-4 px-6 mt-6'>
         <div className='shadow-md px-7 py-5 text-center bg-sky-100 rounded-3xl text-[#333]'>
           <div className='text-xl mb-2 font-medium'>استراتيجية استشارات الأعمال:</div>
