@@ -5,12 +5,12 @@ import { Link } from "react-router-dom"
 function NavigationMenu(props){
     return (
         <div>
-            <div className="py-4 mx-3 text-center text-white font-semibold">شركة اعتمد للاستثمار</div>
-            <ul className='m-auto w-[90%] text-center text-white'>
+            <div className="py-4 text-center text-white bg-[#999] font-semibold text-lg md:text-xl">شركة اعتمد للاستثمار</div>
+            <ul className='m-auto w-[90%] text-center text-white md:text-lg'>
                 <li>
                     <Link 
                         to="/" 
-                        className="py-3 border-t border-b border-white block"
+                        className="py-3 border-b border-white block"
                         onClick={() => setShowMenu(false)}
                     >
                         الرئيسية
@@ -54,7 +54,7 @@ function NavigationMenu(props){
                 </li>
                 <li>
                     <Link 
-                        to="/whyAtimid" 
+                        to="/whyAtmid" 
                         className="py-3 border-b border-white block"
                         onClick={() => setShowMenu(false)}
                     >

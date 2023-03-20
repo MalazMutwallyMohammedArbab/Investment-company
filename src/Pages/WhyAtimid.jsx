@@ -5,9 +5,9 @@ import 'react-alice-carousel/lib/alice-carousel.css';
 
 export default function WhyAtimid() {
   return (
-    <div className='container block mx-auto mb-20'>
-      <div className='text-white bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-[16px] py-3 px-5 w-[50%] m-auto text-center'>لماذا اعتمد للاستثمار؟</div>
-      <div className='m-auto mx-9 lg:mx-48 mt-9'>
+    <div className='container block mx-auto mb-20 shadow shadow-sky-200 py-4 rounded-[40px] border border-sky-500 w-[80%] lg:w-[60%] bg-[#f8f8f8]'>
+      <div className='text-white bg-sky-500 font-medium rounded-lg text-[19px] py-3 px-5 w-fit m-auto text-center'>لماذا اعتمد للاستثمار؟</div>
+      <div className='m-auto mx-9 mt-9'>
       <AliceCarousel className='mb-0' autoPlay autoPlayInterval='2000'>
         <div className='shadow-xl text-center pb-6 sliderimg bg-sky-100 h-72'>
           <Image className='w-40 h-20 md:w-48 md:h-28 m-auto' src='images/logo.png' alt='logo' />

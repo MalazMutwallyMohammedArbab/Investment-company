@@ -9,7 +9,7 @@ function Navigation(){
     let menu
     let menuMask
     if (showMenu){
-      menu = <div className='fixed bg-black top-0 right-0 w-3/5 h-full z-50 shadow'><NavigationMenu /></div>
+      menu = <div className='fixed bg-[#555] top-0 right-0 w-3/5 h-full z-50 shadow'><NavigationMenu /></div>
 
       menuMask = <div className='fixed top-0 left-0 w-full h-full z-50' onClick={() => setShowMenu(false)}></div>
     }

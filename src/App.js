@@ -40,7 +40,7 @@ function App() {
         <Route exact path="/maqayeesEnv" element={<MaqayeesEnv />} />
 
         <Route exact path="/builing" element={<Building />} />
-        <Route exact path="/atimid" element={<Atimid />} />
+        <Route exact path="/atmid" element={<Atimid />} />
 
         <Route exact path="/startup" element={<StartupCompanies />} />
         <Route exact path="/edfaa" element={<Edfaa />} />
@@ -51,9 +51,9 @@ function App() {
         <Route exact path="/energy" element={<Energy />} />
 
         <Route exact path="/vision" element={<Vision />} />
-        <Route exact path="letter" element={<Letter />} />
-        <Route exact path="whyAtimid" element={<WhyAtimid />} />
-        <Route exact path="contact" element={<Contact />} />
+        <Route exact path="/letter" element={<Letter />} />
+        <Route exact path="/whyAtmid" element={<WhyAtimid />} />
+        <Route exact path="/contact" element={<Contact />} />
       </Routes>
       <Footer />
     </div>
