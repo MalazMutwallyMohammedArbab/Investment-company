@@ -1,19 +1,21 @@
-import React from 'react'
+import React from 'react';
+import Image from './Images';
 
 export default function Consulting() {
   return (
     <div dir='rtl' className='container mb-12 block m-auto'>
-      <div className='border border-sky-500 w-[80%] md:w-[50%] m-auto rounded-[40px] mt-16 py-4'>
-        <div className='text-white bg-sky-500 font-medium rounded-lg text-[20px] py-3 px-5 w-fit m-auto text-center'>الاستشارات</div>
+      <div className='border-2 border-sky-100 w-[80%] md:w-[50%] m-auto rounded-[40px] mt-16 py-4'>
+        <div className='text-sky-400 font-medium text-[28px] text-center border-b-2 border-sky-100'>الاستشارات</div>
         <div className='px-7 lg:px-14 text-center text-lg lg:text-xl mt-5'>تقدم الشركة خدمات الاستشارات الإدارية والتطوير وخدمات الامتياز التجاري لكافة العلامات التجارية بشكل مستمر</div>
       </div>
-      <div className='border border-sky-500 w-[80%] md:w-[50%] m-auto rounded-[40px] mt-16 py-4'>
-      <div className='text-white bg-sky-500 font-medium rounded-lg text-[20px] py-3 px-5 w-fit m-auto text-center'>التدريب</div>
+      <div className='border-2 border-sky-100 w-[80%] md:w-[50%] m-auto rounded-[40px] mt-16 py-4'>
+      <div className='text-sky-400 font-medium text-[28px] text-center border-b-2 border-sky-100'>التدريب</div>
       <div className='text-center text-lg lg:text-xl mt-5'>إعداد الحقائب التدريبية</div>
       <div className='text-center text-lg lg:text-xl mt-5'>تصميم البرامج التدريبية</div>
       </div>
 
-      <div className='mt-12 text-white bg-sky-500 font-medium rounded-lg text-[20px] py-3 px-5 w-fit m-auto text-center'>الاستشارات الإدارية</div>
+      <div className='mt-12 text-sky-400 font-medium text-[22px] md:text-[28px] pb-2 w-fit m-auto text-center border-b-2 border-sky-200'>الاستشارات الإدارية</div>
+      <Image className='w-48 md:w-72 h-20 m-auto' src='images/atmidna.jpg' alt='' />
       <div className='grid grid-cols-1 md:grid-cols-2 gap-4 px-6 mt-6'>
         <div className='shadow-md px-7 py-5 text-center bg-sky-100 rounded-3xl text-[#333]'>
           <div className='text-xl mb-2 font-medium'>استراتيجية استشارات الأعمال:</div>
