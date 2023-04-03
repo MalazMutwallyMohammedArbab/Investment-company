@@ -6,7 +6,7 @@ import './header.css'
 
 export default function Header() {
   return (
-    <div className='pb-6'>
+    <div className='pb-6 bg-[#FFFACD]'>
       <AliceCarousel className='mb-0' autoPlay autoPlayInterval='3000'>
         <div className='relative flex justify-center align-center mt-7'>
           <Image className='w-[90%] h-[500px] sliderimg rounded-[40px]' src='images/bu1.jpg' alt='' />

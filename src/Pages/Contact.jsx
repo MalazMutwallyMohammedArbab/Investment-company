@@ -3,7 +3,8 @@ import Image from '../Components/Images';
 
 export default function Contact() {
   return (
-    <div dir='rtl' className='container shadow py-4 rounded-[40px] m-auto border border-sky-100 w-[80%] md:w-[50%] bg-white mb-20'>
+    <div className='bg-[#f8f8f8] pt-14 pb-20'>
+    <div dir='rtl' className='container shadow py-4 rounded-[40px] m-auto border border-sky-100 w-[80%] md:w-[50%] bg-white'>
       <div className='text-sky-400 font-medium text-[28px] text-center border-b-2 border-sky-100 mb-6'>تواصل معنا</div>
       <Image className='w-40 m-auto' src='images\logo.jpg' alt='' />
       <div className='text-2xl md:text-4xl text-center mt-5'>Atmiid</div>
@@ -29,6 +30,7 @@ export default function Contact() {
         <div className='md:text-xl'>الرياض- العليا تقاطع العروبة</div>
         <Image className='h-5 md:h-6' src='images/location2.jpg' alt='img' />
       </div>
+    </div>
     </div>
   )
 }
