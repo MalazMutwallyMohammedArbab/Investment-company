@@ -5,6 +5,7 @@ import 'react-alice-carousel/lib/alice-carousel.css';
 
 export default function WhyAtimid() {
   return (
+    <div className='bg-[#FFFACD] pt-20 pb-2'>
     <div className='container block mx-auto mb-20 shadow py-4 rounded-[40px] border border-sky-100 w-[80%] lg:w-[60%] bg-white'>
       <div className='text-sky-400 font-medium text-[28px] text-center border-b-2 border-sky-100'>لماذا اعتمد للاستثمار؟</div>
       <div className='m-auto mx-9 mt-9'>
@@ -41,6 +42,7 @@ export default function WhyAtimid() {
         </div>
       </AliceCarousel>
       </div>
+    </div>
     </div>
   )
 }
