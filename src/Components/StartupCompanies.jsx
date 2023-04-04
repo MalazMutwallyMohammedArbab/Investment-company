@@ -10,7 +10,7 @@ export default function StartupCompanies() {
       <div className='text-lg mb-3'>ترتكز استراتيجية الشركة على الاستثمار في إدارة وتطوير الشركات الناشئة وتقديم أوجه الدعم والتوجيه من خلال مراحل متعددة بكفاءة وفاعلية واحترافية موثوقة، ونقوم بالاستثمار في الشركات الآتية:-</div>
       <div className='text-xl mb-2 font-medium'>الأعمال</div>
       <NavLink to='/edfaa'>
-        <div className='text-lg'>ادفع بي</div>
+        <div className='text-xl text-sky-600'>ادفع بي</div>
       </NavLink>
     </div>
   )

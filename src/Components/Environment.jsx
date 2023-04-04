@@ -11,7 +11,7 @@ export default function Environment() {
       <div className='text-xl mb-2 font-medium'>الأعمال</div>
       <Image className='w-28 h-12 m-auto' src='images/maqayees.jpg' alt='' />
       <NavLink to='/maqayeesEnv'>
-        <div className='text-lg'>شركة مقاييس الدقة</div>
+        <div className='text-xl mt-2 text-sky-600'>شركة مقاييس الدقة</div>
       </NavLink>
     </div>
   )

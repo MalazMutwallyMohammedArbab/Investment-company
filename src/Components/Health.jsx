@@ -7,7 +7,7 @@ export default function Health() {
       <Image className='w-12 h-12 m-auto rounded-[50%]' src='images/health.jpg' alt='' />
       <div className='text-xl mb-6 font-medium'>الرعاية الصحية</div>
       <Image className='w-28 h-12 m-auto' src='images/albait.jpg' alt='' />
-      <div className='text-xl mb-2 font-medium'>شركة البيت الطبية</div>
+      <div className='text-xl mb-2 font-medium mt-3'>شركة البيت الطبية</div>
       <div className='text-lg'>شركة طبية تقدم مجموعة متنوعة من الخدمات والمنتجات المخصصة لعيادات الأسنان وأطباء الأسنان</div>
     </div>
   )
