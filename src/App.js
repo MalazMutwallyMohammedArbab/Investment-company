@@ -25,7 +25,7 @@ import Footer from "./Components/Footer";
 
 function App() {
   return (
-    <div className="bg-[#f8f8f8]">
+    <div className="bg-gradient-to-r from-sky-900 via-sky-600 to-sky-500">
       <Navbar />
       <Header />
       <Routes>

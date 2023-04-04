@@ -11,7 +11,7 @@ export default function Industry() {
       <div className='text-xl mb-2 font-medium'>الأعمال</div>
       <Image className='w-28 m-auto' src='images/maqayeesD.jpg' alt='' />
       <NavLink to='/maqayees'>
-        <div className='text-lg'>شركة مصنع مقاييس الدقة للمعدات</div>
+        <div className='text-xl text-sky-600'>شركة مصنع مقاييس الدقة للمعدات</div>
       </NavLink>
     </div>
   )

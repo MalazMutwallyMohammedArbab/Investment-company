@@ -3,9 +3,9 @@ import Image from '../Components/Images';
 
 export default function Contact() {
   return (
-    <div className='bg-[#f8f8f8] pt-14 pb-20'>
-    <div dir='rtl' className='container shadow py-4 rounded-[40px] m-auto border border-sky-100 w-[80%] md:w-[50%] bg-white'>
-      <div className='text-sky-400 font-medium text-[28px] text-center border-b-2 border-sky-100 mb-6'>تواصل معنا</div>
+    <div className='bg-[#f8f8f8] pt-14 pb-16'>
+    <div dir='rtl' className='container shadow py-4 rounded-[40px] m-auto w-[90%] md:w-[50%] bg-white'>
+      <div className='text-sky-400 font-medium text-[28px] text-center border-b-2 border-sky-100 mb-6 pb-3'>تواصل معنا</div>
       <Image className='w-40 m-auto' src='images\logo.jpg' alt='' />
       <div className='text-2xl md:text-4xl text-center mt-5'>Atmiid</div>
       <div className='text-lg md:text-xl text-center'>شركة اعتمد للاستثمار</div>
